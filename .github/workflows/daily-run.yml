@@ -2,7 +2,7 @@ name: Run Selenium Java Headless Daily
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # 07:00 PM UTC = 12:30 AM IST
+    - cron: "20 19 * * *" 
   workflow_dispatch:
 
 jobs:
